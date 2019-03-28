@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project_title">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_Me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        <li class="nav-item">
+          <a class="nav-link" href="assets/OldResume.pdf" target="_blank">Resume</a>
+        </li>
+        <li><a href="https://github.com/MasterTyrr?tab=repositories" target="_blank"><img
+              src="assets/GitHub-Mark-120px-plus.png" alt="Github" border="0" class="SocialIcon"> </a></li>
+        <li><a href="https://www.linkedin.com/in/sam-richards-855777124/" target="_blank"><img
+              src="assets/In-2C-81px-R.png" alt="Twitter" border="0" class="SocialIcon"></a></li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- JumboTron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="textinjumbotron">Sam Richards</h1>
+      <h3 class="textinjumbotron">Portfolio</h3>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="card-group">
+    <section class="whiteBoard">
+      <h1 id="project_title">Projects</h1>
+      <div class="panel">
+        <a href="https://github.com/logbak/Code-Goblins" target="_blank"><img src="assets/white game try.png"
+            alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="panel">
+        <a href="https://codepen.io/dashboard/" target="_blank"><img src="assets/code pen logo white.png"
+            alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="panel">
+        <a href="https://github.com/MasterTyrr/DragonStoreProject" target="_blank"><img src="assets/web white"
+            alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="panel">
+        <a href="https://github.com/MasterTyrr/GoldBadgeChallenges" target="_blank"><img src="assets/web white"
+            alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="panel">
+        <a href="#" target="_blank"><img src="assets/web white" alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="panel">
+        <a href="https://github.com/MasterTyrr?tab=repositories" target="_blank"><img src="assets/white github icon.png"
+            alt="CodePen Projects" class="ProjectIcons"></a>
+      </div>
+      <div class="clear"></div>
+    </section>
+  </div>
+
+  <!-- About me -->
+  <section>
+    <div>
+      <h1 id="about_Me">About Me</h1>
+      <div class="col-sm"><a><img src="assets/IMG_0049.JPG" class="Theimage"></a></div>
+
+    </div>
+    <div>
+      <p id="AboutMeParagraph">My name is Sam Richards and I grew up in Oklahoma City and Little Rock! I did a lot of
+        manual labour jobs. Some of there were taking care of lawns, but my favorite job was working in a machine shop
+        programming machines to cut material for larger brand new machines. Regardless of how much I know and learn, I
+        am always
+        open and willing to learn even more when opportunities are presented. I feel that I have learned so much
+        throughout the program and already feel that I'm ready to take on the world through coding!</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <br>
+      <br>
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-12">
+          <!-- Change Email -->
+          <form action="https://formspree.io/samuelrichards975@yahoo.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section>
+    <footer id="footer">
+      <span>&copy;2019 <p>Website by Sam Richards</p></span>
+    </footer>
+  </section>
+
+
+  <!-- Idk but something with bootstrap...... -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

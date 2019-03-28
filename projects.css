@@ -1,0 +1,30 @@
+body{
+    background-image: url(assets/star\ background.jpg);
+    
+}
+#project_title{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: slategrey;
+}
+.panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 275px;
+    margin: 40px 15px 50px 50px;
+    padding: 1.12em;
+    background-color: black;
+    border:black solid 2px;
+    border-radius: 4%;
+}
+section div.panel img.ProjectIcons{
+    margin: auto;
+    max-width: 250px;
+    max-height: 275px;
+    margin-top: 15px;
+    width: 220px;
+    height: 200px;
+    margin-bottom: 100px;
+}

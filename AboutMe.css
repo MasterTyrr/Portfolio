@@ -1,0 +1,20 @@
+.Theimage{
+    height: 55vh;
+    width: 40vw;
+    border-radius: 5%;
+}
+#about_Me{
+    font-size: 60px;
+    text-align: center;
+    color: slategrey;
+}
+
+#AboutMeParagraph { 
+    text-align: left;
+    margin-left: 50vw;
+    margin-top: -45vh;
+    font-size: 25px;
+    color: slategrey;
+    width: 45vw;
+    margin-bottom: -35vh;
+}

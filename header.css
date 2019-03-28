@@ -1,0 +1,15 @@
+.jumbotron {
+    z-index: -2;
+    background-image: url(assets/star\ background.jpg);
+    background-size: cover;
+    height: 75vh;
+    box-shadow: 35px 35px 90px black;
+    color: white;
+    text-align:center;
+}
+
+.textinjumbotron{
+    margin-top: 50px;
+    font-size:150px;
+    color: slategrey;
+}
